@@ -1,0 +1,21 @@
+{
+  "name": "alexaandrov/design-patterns",
+  "description": "Learning Design Patterns",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Grigory Alexandrov",
+      "email": "alexaandrov@gmail.com"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "6.5.x-dev"
+  },
+  "autoload":{
+    "psr-4":{
+      "DesignPatterns\\": "src/"
+    }
+  }
+}
